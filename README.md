@@ -1,5 +1,5 @@
 # WSI-Segmentation using UNI2 - ShiradkarLab_IU  
-**Computational Pathology Pipeline for Prostate Cancer Reconstruction & Feature Extraction**
+**Computational Pathology Pipeline for Prostate Cancer Feature Extraction and Cancer Segmentation on WSI**
 
 This repository provides a modular, high-throughput pipeline for processing Whole Slide Images (WSIs) using the **UNI2-h** foundation model. It handles the full lifecycle of digital pathology data: from raw slide patching to final diagnostic heatmap reconstruction.
 
