@@ -4,6 +4,26 @@
 This repository provides a modular, high-throughput pipeline for processing Whole Slide Images (WSIs) using the **UNI2-h** foundation model. It handles the full lifecycle of digital pathology data: from raw slide patching to final diagnostic heatmap reconstruction.
 
 ---
+## Pipeline
+![Architecture](docs/imgs/Pipeline.png)
+---
+
+## Citation
+
+If you use this repository, models, or pipeline in your research, please cite:
+
+```
+@inproceedings{bogale2026foundation,
+  title={Foundation-model-based prostate cancer segmentation on digitized H\&E prostate pathology},
+  author={Bogale, Yamlak and Collins, Katrina and Sonawane, Sumedh and Feldman, Michael and Bahler, Clinton and Shiradkar, Rakesh},
+  booktitle={Medical Imaging 2026: Digital and Computational Pathology},
+  volume={13932},
+  pages={62--68},
+  year={2026},
+  organization={SPIE}
+}
+```
+---
 
 ## Quick Start 
 
@@ -70,5 +90,8 @@ python src/postprocessing/full_wsi_heatmap.py \
 │   └── WSI_Heatmaps/         # Final diagnostic probability maps
 ├── setup.sh                  # Environment configuration
 └── README.md
+
+
+
 
 
